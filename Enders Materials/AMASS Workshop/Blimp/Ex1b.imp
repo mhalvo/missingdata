@@ -1,0 +1,15 @@
+DATA: ~/desktop/examples/probsolve.dat;
+VARIABLES: school condition esolpercent student abilitygrp female stanmath frlunch efficacy
+   probsolve1 probsolve7;
+ORDINAL: efficacy;
+NOMINAL: abilitygrp female frlunch;
+MISSING: -99; 
+MODEL: ~ abilitygrp female stanmath frlunch efficacy
+   probsolve1 probsolve7; 
+NIMPS: 20;
+BURN: 1000;
+THIN: 1000;
+SEED: 90291;
+OUTFILE: ~/desktop/examples/imp*.csv; 
+OPTIONS: separate;
+CHAINS: 2 processors 2; 

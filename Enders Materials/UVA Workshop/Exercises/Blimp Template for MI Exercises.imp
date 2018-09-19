@@ -1,0 +1,14 @@
+DATA: yourfilepath/exercisedat.csv;
+VARIABLES: student abilitygrp female stanmath frlunch efficacy
+   probsolve1 probsolve7;
+ORDINAL:  ;
+NOMINAL:  ;
+MISSING: -99;
+MODEL:  ;
+NIMPS:  ;
+BURN:   ;
+THIN:  ;
+SEED:  ;
+OUTFILE:  ;
+OPTIONS:  ;
+CHAINS: 2 processors 2; 

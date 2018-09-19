@@ -1,0 +1,12 @@
+DATA: ~/desktop/examples/smoking.dat; 
+VARNAMES: id txgroup txdum1 txdum2 male age years 
+  cigs heavycig efficacy stress;
+MISSING: -99;
+MODEL: ~ years cigs efficacy;
+SEED: 90291;
+BURN: 100;
+THIN: 100;
+NIMPS: 20;
+OUTFILE: ~/desktop/examples/imp*.csv;
+OPTIONS: separate;
+CHAINS: 2 processors 2; 

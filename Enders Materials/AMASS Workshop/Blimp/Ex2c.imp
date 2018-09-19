@@ -1,0 +1,13 @@
+DATA: ~/desktop/examples/eatingrisk.dat; 
+VARNAMES: id abuse bmi bds1-bds7 edr1-edr6;
+NOMINAL: abuse;
+ORDINAL: bds1-bds7 edr1-edr6;
+MISSING: -99;
+MODEL: ~ abuse bmi bds1-bds7 edr1-edr6;
+SEED: 90291;
+BURN: 10000;
+THIN: 10000;
+NIMPS: 20;
+OUTFILE: ~/desktop/examples/imps.csv;
+OPTIONS: stacked;
+CHAINS: 2 processors 2; 

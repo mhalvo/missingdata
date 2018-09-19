@@ -1,0 +1,17 @@
+DATA:
+file = implist.csv;
+type = imputation;
+VARIABLE:
+names =  school condition esolpercent student abilgrp female 
+   stanmath frlunch efficacy probsolve1 probsolve7;
+usevariables = female efficacy probsolve1 probsolve7 abilgrp2 abilgrp3;
+DEFINE:
+abilgrp2 = 0;
+abilgrp3 = 0;
+if (abilgrp eq 2) then abilgrp2 = 1;
+if (abilgrp eq 3) then abilgrp3 = 1;
+MODEL:
+probsolve7 on probsolve1 efficacy female abilgrp2 abilgrp3;
+OUTPUT:
+standardized;
+

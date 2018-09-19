@@ -1,0 +1,13 @@
+DATA: ~/desktop/examples/pain.dat; 
+VARNAMES: id female diagnose sleep pain posaff negaff stress;
+MISSING: -99;
+MODEL: ~ female diagnose sleep pain negaff stress pain*female;
+ORDINAL: sleep;
+OUTCOME: stress;
+SEED: 90291;
+BURN: 500;
+THIN: 500;
+NIMPS: 20;
+OUTFILE: ~/desktop/examples/imp*.csv;
+OPTIONS: separate;
+CHAINS: 2 processors 2; 

@@ -1,0 +1,13 @@
+DATA:
+file = pain.csv;
+VARIABLE:
+names = id female diagnose sleep pain posaff 
+  negaff stress;
+usevariables = diagnose pain stress;
+auxiliary = (m) female posaff;
+missing = all(-99);
+MODEL:
+diagnose pain;
+stress on diagnose pain;
+OUTPUT:
+standardized(stdyx);

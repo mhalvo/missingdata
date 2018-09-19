@@ -1,0 +1,21 @@
+DATA:
+file = implist.csv;
+type = imputation;
+VARIABLE:
+names =  school condition esolpercent student abilgrp female stanmath 
+   frlunch efficacy probsolve1 probsolve7;
+usevariables = condition esolpercent female efficacy probsolve1 probsolve7;
+cluster = school;
+within = female efficacy probsolve1;
+between = condition esolpercent;
+ANALYSIS:
+type = twolevel random;
+MODEL:
+%within%
+ranslope | probsolve7 on efficacy;
+probsolve7 on probsolve1 female;
+%between%
+probsolve7 on esolpercent condition;
+probsolve7 with ranslope;
+
+

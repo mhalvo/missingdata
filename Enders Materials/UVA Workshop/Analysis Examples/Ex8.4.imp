@@ -1,0 +1,14 @@
+DATA: ~/desktop/examples/probsolve.csv;
+VARIABLES: school condition esolpercent student abilitygrp 
+   female stanmath frlunch wave months probsolve efficacy;
+ORDINAL: condition efficacy frlunch;
+OUTCOME: probsolve;
+MISSING: -99; 
+MODEL: student ~  probsolve:months efficacy stanmath condition months*condition frlunch; 
+NIMPS: 20;
+BURN: 5000;
+THIN: 2500;
+SEED: 90291;
+OUTFILE: ~/desktop/examples/imps.csv; 
+OPTIONS: stacked;
+CHAINS: 2 processors 2; 

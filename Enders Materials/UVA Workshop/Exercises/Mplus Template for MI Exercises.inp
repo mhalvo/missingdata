@@ -1,0 +1,7 @@
+DATA:
+file = implist.csv;
+type = imputation;
+VARIABLE:
+names =  student abilitygrp female stanmath frlunch efficacy
+   probsolve1 probsolve7;
+

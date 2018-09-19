@@ -1,0 +1,14 @@
+DATA:
+file = implist.csv;
+type = imputation;
+VARIABLE:
+names = id quitmeth male age years 
+  cigs heavycig efficacy stress;
+usevariables = years cigs efficacy;
+MODEL:
+efficacy on years (b1) 
+  cigs (b2);
+MODEL TEST:
+b1 = 0; b2 = 0;
+OUTPUT:
+standardized(stdyx);

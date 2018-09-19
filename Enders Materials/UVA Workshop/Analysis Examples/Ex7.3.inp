@@ -1,0 +1,12 @@
+DATA:
+file = implist.csv;
+type = imputation;
+VARIABLE:
+names = id female diagnose sleep pain posaff negaff stress;
+usevariables = stress female pain femxpain;                       
+DEFINE:
+femxpain = female*pain;
+MODEL:
+stress on female pain femxpain;
+OUTPUT:
+standardized;

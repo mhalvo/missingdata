@@ -1,0 +1,699 @@
+
+-----------------------------------------------------------------
+
+                              Blimp
+                           Beta v6.81
+
+        Developed by Craig K. Enders and Brian T. Keller.
+              Blimp was developed with funding from
+       Institute of Educational Sciences award R305D150056.
+       Craig K. Enders, P.I. Email: cenders@psych.ucla.edu.
+     Programming by Brian T. Keller. Email: bkeller2@ucla.edu
+      This is Beta software with no expressed license given.
+
+
+            DO NOT DISTRIBUTE WITHOUT WRITTEN CONSENT
+
+-----------------------------------------------------------------
+
+Entering diagnostics mode.
+
+
+-----------------------------------------------------------------
+Algorithmic Options Specified:
+        hev, clmean, Raneff Prior 1, Resvar Prior 1.
+-----------------------------------------------------------------
+WARNING: No identifier variable specified.
+         Defaulting to single-level imputation.
+WARNING: 2 observations have all variables in the imputation
+         model missing. They have been dropped from data set.
+Chain 1 online with seed of 44997 
+    Chain 1 saving imputation 1 complete on Fri Sep 14 14:21:32 2018
+    Chain 1 saving imputation 3 complete on Fri Sep 14 14:21:33 2018
+    Chain 1 saving imputation 5 complete on Fri Sep 14 14:21:34 2018
+    Chain 1 saving imputation 7 complete on Fri Sep 14 14:21:35 2018
+    Chain 1 saving imputation 9 complete on Fri Sep 14 14:21:35 2018
+    Chain 1 saving imputation 11 complete on Fri Sep 14 14:21:36 2018
+    Chain 1 saving imputation 13 complete on Fri Sep 14 14:21:37 2018
+    Chain 1 saving imputation 15 complete on Fri Sep 14 14:21:38 2018
+    Chain 1 saving imputation 17 complete on Fri Sep 14 14:21:38 2018
+    Chain 1 saving imputation 19 complete on Fri Sep 14 14:21:39 2018
+Chain 2 online with seed of 73165 
+    Chain 2 saving imputation 2 complete on Fri Sep 14 14:21:46 2018
+    Chain 2 saving imputation 4 complete on Fri Sep 14 14:21:46 2018
+    Chain 2 saving imputation 6 complete on Fri Sep 14 14:21:47 2018
+    Chain 2 saving imputation 8 complete on Fri Sep 14 14:21:48 2018
+    Chain 2 saving imputation 10 complete on Fri Sep 14 14:21:49 2018
+    Chain 2 saving imputation 12 complete on Fri Sep 14 14:21:50 2018
+    Chain 2 saving imputation 14 complete on Fri Sep 14 14:21:51 2018
+    Chain 2 saving imputation 16 complete on Fri Sep 14 14:21:51 2018
+    Chain 2 saving imputation 18 complete on Fri Sep 14 14:21:52 2018
+    Chain 2 saving imputation 20 complete on Fri Sep 14 14:21:53 2018
+-----------------------------------------------------------------
+Variable Order: imp# PID Standing.Reach Weight Vertical T.Q..Spring L.A.T. NSeasons
+-----------------------------------------------------------------
+
+PSR
+------------
+
+Comparing iterations 51 to 100 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.101|         nan|       1.016|         nan|
+   Missing Variable  |    NSeasons|            |      Weight|            |
+                     -----------------------------------------------------
+
+Comparing iterations 101 to 200 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.041|         nan|       1.013|         nan|
+   Missing Variable  |    NSeasons|            |      L.A.T.|            |
+                     -----------------------------------------------------
+
+Comparing iterations 151 to 300 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.060|         nan|       1.010|         nan|
+   Missing Variable  |    Vertical|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 201 to 400 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.039|         nan|       1.014|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 251 to 500 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.038|         nan|       1.003|         nan|
+   Missing Variable  |    NSeasons|            | Standing.Re|            |
+                     -----------------------------------------------------
+
+Comparing iterations 301 to 600 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.049|         nan|       1.005|         nan|
+   Missing Variable  |    NSeasons|            | Standing.Re|            |
+                     -----------------------------------------------------
+
+Comparing iterations 351 to 700 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.040|         nan|       1.007|         nan|
+   Missing Variable  |      L.A.T.|            |    NSeasons|            |
+                     -----------------------------------------------------
+
+Comparing iterations 401 to 800 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.021|         nan|       1.010|         nan|
+   Missing Variable  |      L.A.T.|            | Standing.Re|            |
+                     -----------------------------------------------------
+
+Comparing iterations 451 to 900 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.021|         nan|       1.007|         nan|
+   Missing Variable  |    NSeasons|            |    NSeasons|            |
+                     -----------------------------------------------------
+
+Comparing iterations 501 to 1000 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.018|         nan|       1.012|         nan|
+   Missing Variable  |    NSeasons|            |    NSeasons|            |
+                     -----------------------------------------------------
+
+Comparing iterations 551 to 1100 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.013|         nan|       1.014|         nan|
+   Missing Variable  |    NSeasons|            |    NSeasons|            |
+                     -----------------------------------------------------
+
+Comparing iterations 601 to 1200 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.013|         nan|       1.006|         nan|
+   Missing Variable  |    NSeasons|            |    NSeasons|            |
+                     -----------------------------------------------------
+
+Comparing iterations 651 to 1300 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.011|         nan|       1.003|         nan|
+   Missing Variable  |    NSeasons|            |      Weight|            |
+                     -----------------------------------------------------
+
+Comparing iterations 701 to 1400 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.011|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            |      Weight|            |
+                     -----------------------------------------------------
+
+Comparing iterations 751 to 1500 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.005|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 801 to 1600 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.004|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            |    NSeasons|            |
+                     -----------------------------------------------------
+
+Comparing iterations 851 to 1700 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.005|         nan|       1.000|         nan|
+   Missing Variable  |    Vertical|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 901 to 1800 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.005|         nan|       1.000|         nan|
+   Missing Variable  |    Vertical|            |      Weight|            |
+                     -----------------------------------------------------
+
+Comparing iterations 951 to 1900 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.006|         nan|       1.000|         nan|
+   Missing Variable  |    Vertical|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1001 to 2000 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.007|         nan|       1.000|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1051 to 2100 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.007|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1101 to 2200 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.006|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            | Standing.Re|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1151 to 2300 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.005|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            | Standing.Re|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1201 to 2400 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.004|         nan|       1.000|         nan|
+   Missing Variable  |    NSeasons|            | Standing.Re|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1251 to 2500 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.003|         nan|       1.001|         nan|
+   Missing Variable  | T.Q..Spring|            |      L.A.T.|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1301 to 2600 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.002|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1351 to 2700 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.004|         nan|       1.002|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1401 to 2800 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.002|         nan|       1.002|         nan|
+   Missing Variable  | T.Q..Spring|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1451 to 2900 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.003|         nan|       1.003|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1501 to 3000 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.003|         nan|       1.002|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1551 to 3100 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.003|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1601 to 3200 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.002|         nan|
+   Missing Variable  | T.Q..Spring|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1651 to 3300 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.002|         nan|       1.002|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1701 to 3400 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.002|         nan|
+   Missing Variable  |      L.A.T.|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1751 to 3500 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.002|         nan|       1.002|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1801 to 3600 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.003|         nan|       1.002|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1851 to 3700 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.002|         nan|       1.002|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1901 to 3800 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.003|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 1951 to 3900 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.003|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2001 to 4000 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.004|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2051 to 4100 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.002|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2101 to 4200 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.002|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2151 to 4300 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.002|         nan|       1.001|         nan|
+   Missing Variable  |    NSeasons|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2201 to 4400 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |    NSeasons|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2251 to 4500 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2301 to 4600 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2351 to 4700 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2401 to 4800 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2451 to 4900 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            |    NSeasons|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2501 to 5000 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2551 to 5100 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2601 to 5200 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2651 to 5300 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2701 to 5400 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |    Vertical|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2751 to 5500 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |    Vertical|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2801 to 5600 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2851 to 5700 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2901 to 5800 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 2951 to 5900 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            |    Vertical|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3001 to 6000 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3051 to 6100 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3101 to 6200 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3151 to 6300 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3201 to 6400 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3251 to 6500 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3301 to 6600 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3351 to 6700 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3401 to 6800 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3451 to 6900 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3501 to 7000 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3551 to 7100 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3601 to 7200 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3651 to 7300 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3701 to 7400 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.000|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3751 to 7500 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3801 to 7600 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.000|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3851 to 7700 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3901 to 7800 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.000|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 3951 to 7900 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.000|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+Comparing iterations 4001 to 8000 for 2 chains.
+                     -----------------------------------------------------
+                     |     Fix Eff| Ran Eff Var|     Err Var|   Threshold|
+                     -----------------------------------------------------
+            Max PSR  |       1.001|         nan|       1.001|         nan|
+   Missing Variable  |      Weight|            | T.Q..Spring|            |
+                     -----------------------------------------------------
+
+-----------------------------------------------------------------

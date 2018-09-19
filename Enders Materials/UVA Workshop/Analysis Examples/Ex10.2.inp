@@ -1,0 +1,15 @@
+DATA:
+file = smoking.csv;
+VARIABLE:
+names = id quitmeth male age years 
+  cigs heavycig efficacy stress;
+usevariables = efficacy years cigs;
+missing = all(-99);
+MODEL:
+years cigs; ! List all predictors, even if complete;
+efficacy on years (b1) 
+  cigs (b2);
+MODEL TEST:
+b1 = 0; b2 = 0;
+OUTPUT:
+standardized(stdyx);

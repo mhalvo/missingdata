@@ -1,0 +1,23 @@
+DATA: C:\Users\Max\Dropbox\Missing Data Workshop\R Code\dnba_b.csv;
+
+VARIABLES: PID Height Weight Vertical T.Q..Spring L.A.T. NSeasons;
+
+NOMINAL: ;
+
+ORDINAL: ;
+
+MISSING: -9999;
+
+MODEL: ~ Height Weight Vertical T.Q..Spring L.A.T. NSeasons;
+
+NIMPS: 5;
+
+THIN: 1000;
+
+BURN: 8000;
+
+SEED: 1337;
+
+OUTFILE: C:\Users\Max\Dropbox\Missing Data Workshop\R Code\imputed_dnba_b.csv;
+
+OPTIONS: clmean hev stacked prior1 psr csv;

@@ -1,0 +1,14 @@
+DATA:
+file = eatingrisk.dat;
+VARIABLE:
+names = id abuse bmi bds1-bds7 edr1-edr6;
+usevariables = abuse bodydis eatrisk;
+missing = all(-99);
+DEFINE:
+bodydis = sum(bds1-bds7);
+eatrisk = sum(edr1-edr6);
+MODEL:
+eatrisk abuse bodydis
+eatrisk on abuse bodydis;
+OUTPUT:
+standardized(stdyx);

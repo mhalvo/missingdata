@@ -1,0 +1,13 @@
+DATA:
+file = implist.csv;
+type = imputation; 
+VARIABLE:
+names = id abuse bmi bds1-bds7 edr1-edr6;
+usevariables = abuse bodydis eatrisk;
+DEFINE:
+bodydis = sum(bds1-bds7);
+eatrisk = sum(edr1-edr6);
+MODEL:
+eatrisk on abuse bodydis;
+OUTPUT:
+standardized(stdyx);

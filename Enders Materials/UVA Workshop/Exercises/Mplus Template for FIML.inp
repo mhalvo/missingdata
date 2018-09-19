@@ -1,0 +1,6 @@
+DATA:
+file = exercisedat.csv;
+VARIABLE:
+names =  student abilitygrp female stanmath frlunch efficacy
+   probsolve1 probsolve7;
+

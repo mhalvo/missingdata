@@ -1,0 +1,11 @@
+DATA:
+file = smoking.csv;
+VARIABLE:
+names = id quitmeth male age years cigs heavycig efficacy stress;
+usevariables = years cigs;
+missing = all(-99);
+MODEL:
+years cigs;
+years with cigs;
+OUTPUT:
+standardized(stdyx);

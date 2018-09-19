@@ -1,0 +1,14 @@
+DATA: ~/desktop/examples/smoking.csv; 
+VARNAMES: id quitmeth male age years cigs heavycig 
+   efficacy stress;
+NOMINAL: male;
+ORDINAL: heavycig;
+MISSING: -99;
+MODEL: ~ efficacy heavycig male years;
+SEED: 90291;
+BURN: 6000;
+THIN: 1;
+NIMPS: 2;
+OUTFILE: ~/desktop/examples/imp*.csv;
+OPTIONS: separate psr;
+CHAINS: 2 processors 2; 
